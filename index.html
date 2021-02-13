@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Space Pirate</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="bg-dark text-center text-light">
+        Space Pirate Game
+    </header>
+    <!-- Header End -->
+    <!-- Main Start -->
+    <main class="container-fluid backgroundImg">
+        <!-- Test Row Start -->
+        <div class="row ">
+            <div class="col-md-3 py-4 text-center align-self-center text-light">
+              <h1 id="treasure-amount">0</h1>
+            </div>
+            <div class="col-md-5 py-3 text-center align-self-center">
+              <img class="img-fluid fa-spin" onclick="treasureClick()" src="https://lh3.googleusercontent.com/proxy/bmhJtuO8RTjBBvzqPlYiRzh9pNVufnZiXU_n8EaLLzLGgr8KZyO56L5kedR9bdGvhoj2Z3b0Db6_mZNjowWNjMzMNTUZlDlgxntDZmBxksc4G9F7hDYep-mbBKnn_-FR32s" alt="">
+            </div>
+            <div class="col-md-4 my-5">
+                <!-- Card Start -->
+              <div class="card specialCard" >
+                <div class="card-body ">
+                  <h4 id=tpcAnnouncer> You make 1 treasure per click</h4>
+                </div>
+                <div class="card-body">
+                  <h4 id=tpsAnnouncer>You make 0 treasure per second</h4>       
+                </div>
+                <div class="card-body">
+                  <button class="btn specialCard btn-block my-3" id="upgrade1" onclick="upgradeOne()"></button>
+                  <button class="btn specialCard btn-block" id="upgrade2" onclick="upgradeTwo()">Upgrade 2 $100</button>
+                  <button class="btn specialCard btn-block my-3" id="upgrade3" onclick="upgradeThree()">Upgrade 3 $15</button>
+                  <button class="btn specialCard btn-block" id="upgrade4" onclick="upgradeFour()">Upgrade 4 $1000</button>
+                </div>
+              </div>  
+                <!--Card End  -->
+            </div>
+        </div>
+        <!-- Test Row End -->
+        <!-- Upgrade Row Start -->
+        
+        <!-- Upgrade Row End -->
+        
+    </main>
+    <!-- Main End -->
+    <!-- Footer Begin -->
+    
+
+
+
+
+
+
+      
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

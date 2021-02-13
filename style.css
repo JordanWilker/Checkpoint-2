@@ -1,0 +1,16 @@
+body { min-height: 100vh; display: flex; flex-direction: column; }
+header{height:4vh } 
+main{flex-grow: 1;} 
+
+
+.backgroundImg{
+    background-image: url(https://wallpapercave.com/wp/wp2742875.jpg);
+    background-position: center;
+}
+
+.specialCard{
+    background-color: rgba(245, 245, 245, .6);
+    
+    color:black;
+}
+
